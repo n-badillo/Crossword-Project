@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		7ACED26C24457093008047A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACED26B24457093008047A2 /* AppDelegate.swift */; };
 		7ACED26E24457093008047A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACED26D24457093008047A2 /* SceneDelegate.swift */; };
-		7ACED27024457093008047A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACED26F24457093008047A2 /* ViewController.swift */; };
+		7ACED27024457093008047A2 /* CrosswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACED26F24457093008047A2 /* CrosswordViewController.swift */; };
 		7ACED27324457093008047A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACED27124457093008047A2 /* Main.storyboard */; };
 		7ACED27524457099008047A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACED27424457099008047A2 /* Assets.xcassets */; };
 		7ACED27824457099008047A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACED27624457099008047A2 /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		7ACED26824457093008047A2 /* Crossword-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crossword-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACED26B24457093008047A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ACED26D24457093008047A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7ACED26F24457093008047A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7ACED26F24457093008047A2 /* CrosswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordViewController.swift; sourceTree = "<group>"; };
 		7ACED27224457093008047A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7ACED27424457099008047A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ACED27724457099008047A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +76,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A5F686A246F14AA00B5F031 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A5F686C246F14E100B5F031 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7ACED27124457093008047A2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A5F686D246F14EF00B5F031 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7ACED26F24457093008047A2 /* CrosswordViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		7ACED25F24457093008047A2 = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +124,12 @@
 			children = (
 				7ACED26B24457093008047A2 /* AppDelegate.swift */,
 				7ACED26D24457093008047A2 /* SceneDelegate.swift */,
-				7ACED26F24457093008047A2 /* ViewController.swift */,
-				7ACED27124457093008047A2 /* Main.storyboard */,
-				7ACED27424457099008047A2 /* Assets.xcassets */,
-				7ACED27624457099008047A2 /* LaunchScreen.storyboard */,
+				7A5F686A246F14AA00B5F031 /* Model */,
+				7A5F686C246F14E100B5F031 /* View */,
+				7A5F686D246F14EF00B5F031 /* Controller */,
 				7ACED27924457099008047A2 /* Info.plist */,
+				7ACED27624457099008047A2 /* LaunchScreen.storyboard */,
+				7ACED27424457099008047A2 /* Assets.xcassets */,
 			);
 			path = "Crossword-Project";
 			sourceTree = "<group>";
@@ -259,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ACED27024457093008047A2 /* ViewController.swift in Sources */,
+				7ACED27024457093008047A2 /* CrosswordViewController.swift in Sources */,
 				7ACED26C24457093008047A2 /* AppDelegate.swift in Sources */,
 				7ACED26E24457093008047A2 /* SceneDelegate.swift in Sources */,
 			);
